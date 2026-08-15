@@ -284,3 +284,4 @@ colored LED dot — appears on cards, the admin table, and the live
 telemetry panel, so "is this thing on" reads the same way everywhere in
 the product.
 "# iot-debug" 
+"# iot-debug" 
