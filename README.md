@@ -283,3 +283,8 @@ data-shaped (status, specs, file sizes). The recurring motif — a small
 colored LED dot — appears on cards, the admin table, and the live
 telemetry panel, so "is this thing on" reads the same way everywhere in
 the product.
+<<<<<<< HEAD
+=======
+"# iot-debug" 
+"# iot-debug" 
+>>>>>>> 701d91d781226cf688fe101fc4451824493b11aa

@@ -72,7 +72,11 @@ export default function ProjectDetail() {
   return (
     <>
       <section className="container" style={{ paddingTop: 40 }}>
+<<<<<<< HEAD
         <Link to="/" className="mono" style={{ fontSize: 12.5, color: 'var(--text-dim)' }}>← All projects</Link>
+=======
+        <Link to="/" className="mono" style={{ fontSize: 12.5, color: 'var(--text-dim)' }}>&larr; All projects</Link>
+>>>>>>> 701d91d781226cf688fe101fc4451824493b11aa
 
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12, alignItems: 'center', marginTop: 20, marginBottom: 10 }}>
           <span className="tag">{project.categoryName}</span>
@@ -95,7 +99,11 @@ export default function ProjectDetail() {
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginBottom: 32 }}>
             {project.githubLinks.map((g) => (
               <a key={g.url} href={g.url} target="_blank" rel="noreferrer" className="btn">
+<<<<<<< HEAD
                 {g.label || 'Repository'} ↗
+=======
+                {g.label || 'Repository'} &nearr;
+>>>>>>> 701d91d781226cf688fe101fc4451824493b11aa
               </a>
             ))}
           </div>
@@ -236,6 +244,7 @@ export default function ProjectDetail() {
                   ) : (
                     <div style={{ width: 32, height: 32, borderRadius: '50%', background: 'var(--bg-inset)', border: '1px solid var(--border)' }} />
                   )}
+<<<<<<< HEAD
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <div style={{ fontSize: 13.5 }}>{m.name}</div>
                     <div className="mono" style={{ fontSize: 11, color: 'var(--text-faint)' }}>{m.role}</div>
@@ -254,6 +263,12 @@ export default function ProjectDetail() {
                       )}
                     </div>
                   )}
+=======
+                  <div>
+                    <div style={{ fontSize: 13.5 }}>{m.name}</div>
+                    <div className="mono" style={{ fontSize: 11, color: 'var(--text-faint)' }}>{m.role}</div>
+                  </div>
+>>>>>>> 701d91d781226cf688fe101fc4451824493b11aa
                 </div>
               ))}
             </SidebarBlock>
